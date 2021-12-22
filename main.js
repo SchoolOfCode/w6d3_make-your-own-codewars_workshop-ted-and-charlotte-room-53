@@ -1,9 +1,9 @@
 /* 
 👉 Write your kata here!
 
-Take an array of numbers and translate each into its corresponding letter to form a word. 
+Take an array of numbers and translate each number into its corresponding letter to form a word. 
 If a number in the array is below 1 or the array is empty it should throw an error that says, "This array is not valid.".
-If a number is above 26 it should start from A again and loop around. 
+If a number is above 26 it should loop around to the start of the alphabet again. 
 
 For example: 
 [6, 15, 15, 4] should return food.
